@@ -16,6 +16,7 @@ func mergeSortedArrays(a [size1]int, b [size2]int) [sizeResult]int {
 			continue
 		} else if k == size2 {
 			result[i] = a[j]
+			j++
 			continue
 		}
 		if a[j] < b[k] {
